@@ -68,11 +68,12 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ![screenshot(s) die een goed beeld geven van de website die je gaat maken-](images/thuisbezorgd5.jpg)
 
-thuisbezorgd2.png, thuisbezorgd3.png, thuisbezorgd4.png, thuisbezorgd5.jpg)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken-](images/thuisbezorgd2.png)
 
+![screenshot(s) die een goed beeld geven van de website die je gaat maken-](images/thuisbezorgd3.png)
 
+![screenshot(s) die een goed beeld geven van de website die je gaat maken-](images/thuisbezorgd4.png)
 
-   
 
 **Breakdown-schets(en):**
 
