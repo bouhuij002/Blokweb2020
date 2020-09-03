@@ -1,5 +1,5 @@
 # Procesverslag
-**Auteur:** Jeroen Bouhuijs
+**Auteur:** -jouw naam-
 
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
 
@@ -56,11 +56,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Intake (week 1)
 
-**Je startniveau:** Blauw
+**Je startniveau:** -kies uit zwart, rood óf blauw-
 
-**Je focus:** Helemaal Responsive
+**Je focus:** -kies uit responsive óf surface plane-
 
-**Je opdracht:** https://www.thuisbezorgd.nl/
+**Je opdracht:** -link naar de website die je gaat namaken óf de naam van je eigen ontwerp-
 
 **Screenshot(s):**
 
