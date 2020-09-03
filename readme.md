@@ -64,7 +64,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s):**
 
-images/thuisbezorgd1.jpg
+images/dummy-image.svg
 
 **Breakdown-schets(en):**
 
