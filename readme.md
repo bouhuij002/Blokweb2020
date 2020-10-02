@@ -38,11 +38,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+Voor mijn gevoel ging alles wel redelijk soepel, het lastigste vond ik de positionering. Dit heb ik tot nu toe ook nog niet heel netjes gedaan, dus dat moet ik nog veranderen. Ik zat zelf aan het gebruik van grids te denken, om makkelijk overzicht te houden over de layout. Voor de rest moet ik ook gaan letten op overbodige css.
 
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent-
+![screenshot(s) die een goed beeld geven van de website die je gaat maken-](images/screenshotvoortgang1.png)
 
 ### Agenda voor meeting
 
@@ -50,7 +50,15 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
+Comment in html bij Unicode zetten wat ik gedaan heb
+
+- Beperkingen en voordelen er bij zetten
+
+Header flex box doen - Position absolute naar flex box
+
+Clip-path documentatie, hoe werkt het?
+
+Css opschonen!!!
 
 
 
