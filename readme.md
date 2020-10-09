@@ -30,7 +30,14 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+Kijken naar de em's ipv pixels
+Css en html is goed, paar kleine dingetjes die gefixt moeten worden
+Bij een aantal dingen uitleg geven waarom ik dit heb gedaan
+Form kan zonder grind, maar dan moet er wel een margin-auto op
+H3 en H4 responsive al maken
+Background-image van de hamburgers maken
+
+Ik loop zelf met een aantal dingetjes vast, zoals de carrousel en het positioneren van elementen. Ik probeer hier ook zo veel mogelijk hulp mee te vragen, alleen wil ik het eerst zelf altijd proberen, wat vaak veel tijd kost. Vooral het positioneren en stijlen vind ik lastig
 
 
 
