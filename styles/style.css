@@ -13,40 +13,41 @@ body {
     font-family: Avant Garde, Arial, sans-serif;
 }
 
-html, body {
+html,
+body {
     width: 100%;
     height: 100%;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     overflow-x: hidden;
 }
 
 header {
     display: grid;
     grid-template-columns: 25% 50% 25%;
-    grid-template-rows: 50px;
-    grid-column-gap: 10px;
-    grid-row-gap: 15px;
+    grid-template-rows: 3.125em;
+    grid-column-gap: 0.625em;
+    grid-row-gap: 0.938em;
     background-color: #ff8000;
     padding: 0 10px 0 10px;
 }
 
-header a {
-    grid-column-start: 1;
-    grid-row-start: 1;
-    background-color: #ff8000;
-    justify-self: start;
-    align-self: center;
-    display: flex;
-    align-content: flex-start;
-    justify-content: flex-start;  
-}
+    header a {
+        grid-column-start: 1;
+        grid-row-start: 1;
+        background-color: #ff8000;
+        justify-self: start;
+        align-self: center;
+        display: flex;
+        align-content: flex-start;
+        justify-content: flex-start;
+    }
 
-header a img {
-    max-height: 28px;
-    width: auto;
-    margin-right: auto;
-}
+        header a img {
+            max-height: 1.750em;
+            width: auto;
+            margin-right: auto;
+        }
 
 .menu {
     grid-column-start: 3;
@@ -66,9 +67,9 @@ header a img {
 .indexsectie {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 100px 50px;
-    grid-column-gap: 10px;
-    grid-row-gap: 15px 5px;
+    grid-template-rows: 6.250em 3.125em;
+    grid-column-gap: 0.625em;
+    grid-row-gap: 0.938em 0.313em;
     background-color: #ff8000;
     padding: 0 10px 0 10px;
 }
@@ -109,13 +110,13 @@ header a img {
             font-weight: 400;
             background-color: #fff;
             font-size: 15px;
-            width: 77.05%;
+            width: 77%;
             height: 3rem;
             border-radius: 2px 0 0 2px;
             border: 5px black;
             box-shadow: inset 0 0 2px black;
             padding: 0 1rem 0 2.7rem;
-            max-width: 77.05%;
+            max-width: 77%;
         }
 
         .search form button {
@@ -130,15 +131,15 @@ header a img {
             padding: 0 21px;
             border: 1px solid #1574f5;
             z-index: 100;
-            width: 22.95%;
-            max-width: 22.95%;
+            width: 23%;
+            max-width: 23%;
         }
 
 .locationicon {
     position: relative;
     width: 100%;
     text-align: center;
-    max-width: 20px;
+    max-width: 1.250em;
     margin-left: 3%;
     opacity: 0.5;
     top: -3.3em;
@@ -147,7 +148,7 @@ header a img {
 section:nth-of-type(3) {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 20px;
+    grid-template-rows: 1.250em;
     height: 50vh;
 }
 
@@ -162,10 +163,9 @@ section > .polygon {
     clip-path: polygon(0 0, 0 100%, 100% 0, 100% 0);
     z-index: 80;
     margin-top: -0.05em;
-    
 }
 
-.hamburger {
+.hamburgerfoto {
     grid-column-start: 1;
     grid-row-start: 1;
     justify-content: center;
@@ -180,12 +180,12 @@ section:nth-of-type(4) {
     position: relative;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 50px 50px;
+    grid-template-rows: 3.125em 3.125em;
     padding: 0 10px 0 10px;
     margin-top: 2em;
 }
 
-.eersteh3 {
+.thuisbezorgdwerktzo {
     grid-column-start: 1;
     grid-row-start: 1;
     color: #0a3847;
@@ -209,7 +209,7 @@ section h4 {
 section:nth-of-type(5) {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 50px 50px;
+    grid-template-rows: 3.125em 3.125em;
     padding: 0 10px 0 10px;
 }
 
@@ -219,13 +219,13 @@ section h5 {
     font-weight: 600;
     position: relative;
     display: block;
-    margin: 8px 0 16px;
+    margin: 0.5em 0 1em;
     color: #0a3847;
     font-size: 18px;
     text-align: center;
 }
 
-.AdresP {
+.adresinvoeren {
     grid-column-start: 1;
     grid-row-start: 2;
     font-size: 14px;
@@ -240,7 +240,7 @@ span:nth-of-type(1) {
 section:nth-of-type(6) {
     display: grid;
     grid-template-columns: 10% 10% 10%;
-    grid-template-rows: 50px;
+    grid-template-rows: 3.125em;
     padding: 0 10px 0 10px;
     justify-items: center;
     align-items: center;
@@ -256,8 +256,8 @@ section:nth-of-type(6) {
     display: inline-block;
     border-radius: 50%;
     font-size: 15px;
-    width: 20px;
-    height: 20px;
+    width: 1.250em;
+    height: 1.250em;
 }
 
 .navrondje:nth-of-type(2) {
@@ -269,8 +269,8 @@ section:nth-of-type(6) {
     background-color: #fff;
     border: 1px solid #cfcac4;
     font-size: 15px;
-    width: 20px;
-    height: 20px;
+    width: 1.250em;
+    height: 1.250em;
     text-align: center;
 }
 
@@ -283,8 +283,8 @@ section:nth-of-type(6) {
     background-color: #fff;
     border: 1px solid #cfcac4;
     font-size: 15px;
-    width: 20px;
-    height: 20px;
+    width: 1.250em;
+    height: 1.250em;
     text-align: center;
 }
 
@@ -301,31 +301,31 @@ section:nth-of-type(6) {
     margin: auto;
 }
 
-.poepies {
+.carouselfoto {
     width: 100%;
     height: 100%;
     margin: auto;
 }
 
-.poepies1 {
+.carouselfoto1 {
     width: 100%;
     height: 100%;
     margin: auto;
 }
 
-.poepies2 {
+.carouselfoto2 {
     width: 100%;
     height: 100%;
     margin: auto;
 }
 
-.poepies3 {
+.carouselfoto3 {
     width: 100%;
     height: 100%;
     margin: auto;
 }
 
-.poepies4 {
+.carouselfoto4 {
     width: 100%;
     height: 100%;
     margin: auto;
@@ -368,7 +368,7 @@ section:nth-of-type(6) {
 section:nth-of-type(7) {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 50px 50px 50px 50px;
+    grid-template-rows: 3.125em 3.125em 3.125em 3.125em;
     background-color: #ff8000;
     position: relative;
     margin: 0 auto;
@@ -377,36 +377,36 @@ section:nth-of-type(7) {
     padding: 60px 30px;
 }
 
-.tweedeh3 {
+.downloadapp {
     background: #261e1e;
     box-shadow: 16px 0 0 #261e1e, -16px 0 0 #261e1e;
     color: #fff;
     padding: 8px 0;
     font-weight: 400;
-    margin: 0 0 10px 16px;
+    margin: 0 0 0.625em 0.75em;
     text-align: left;
     width: 8em;
     font-size: 21px;
 }
 
-.derdeh3 {
+.klikenontspan {
     background: #261e1e;
     box-shadow: 16px 0 0 #261e1e, -16px 0 0 #261e1e;
     color: #fff;
     padding: 8px 0;
     font-weight: 400;
-    margin: 0 0 10px 16px;
+    margin: 0 0 0.625em 0.75em;
     text-align: left;
     width: 10.5em;
     font-size: 21px;
 }
 
 .android {
-    margin-bottom: 5px;
+    margin-bottom: 0.35em;
 }
 
 .ios {
-    margin-bottom: 5px;
+    margin-bottom: 0.35em;
 }
 
 .mobielvoorbeeld {
@@ -415,16 +415,15 @@ section:nth-of-type(7) {
     right: 0;
     width: 33%;
     padding-left: 50px;
-    min-width: 220px;
-    max-width: 400px;
+    min-width: 13.750em;
+    max-width: 25em;
 }
 
 @media (min-width: 1005px) {
-
     section:nth-of-type(7) {
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 80px 80px 80px 80px;
+        grid-template-rows: 5em 5em 5em 5em;
         background-color: #ff8000;
         position: relative;
         margin: 0 auto;
@@ -435,33 +434,33 @@ section:nth-of-type(7) {
 
     .android {
         width: 30vh;
-        margin-left: 60px;
+        margin-left: 3.750em;
     }
 
     .ios {
         width: 30vh;
-        margin-left: 60px;
+        margin-left: 3.750em;
     }
 
-    .tweedeh3 {
+    .downloadapp {
         background: #261e1e;
         box-shadow: 16px 0 0 #261e1e, -16px 0 0 #261e1e;
         color: #fff;
         padding: 8px 0;
         font-weight: 400;
-        margin: 0 0 10px 75px;
+        margin: 0 0 0.625em 1.9em;
         text-align: left;
         width: 8em;
         font-size: 40px;
     }
 
-    .derdeh3 {
+    .klikenontspan {
         background: #261e1e;
         box-shadow: 16px 0 0 #261e1e, -16px 0 0 #261e1e;
         color: #fff;
         padding: 8px 0;
         font-weight: 400;
-        margin: 0 0 10px 75px;
+        margin: 0 0 0.625em 1.9em;
         text-align: left;
         width: 10.5em;
         font-size: 40px;
@@ -471,14 +470,14 @@ section:nth-of-type(7) {
 section:nth-of-type(8) {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 50px 30px 200px;
-    margin: 80px auto;
+    grid-template-rows: 3.125em 1.875em 12.5em;
+    margin: 5em auto;
     justify-items: center;
     align-items: center;
     justify-content: center;
 }
 
-.vierdeh3 {
+.extrainfo {
     grid-column-start: 1;
     grid-row-start: 1;
     font-weight: 100;
@@ -486,7 +485,7 @@ section:nth-of-type(8) {
     font-size: 1.4rem;
     line-height: 1.6rem;
     text-align: center;
-    font-family: Takeaway Sans,Avant Garde,Century Gothic,Helvetica,Arial,sans-serif;
+    font-family: Takeaway Sans, Avant Garde, Century Gothic, Helvetica, Arial, sans-serif;
     padding: 0 2em 0;
 }
 
@@ -508,7 +507,7 @@ section:nth-of-type(8) {
     grid-column-start: 1;
     grid-row-start: 3;
     margin: 5em auto 0;
-    max-width: 300px;
+    max-width: 18.750em;
     width: 100%;
 }
 
@@ -521,10 +520,10 @@ section:nth-of-type(8) {
         align-items: center;
         justify-content: center;
         padding: 10px 100px;
-        margin: 10px auto;
+        margin: 0.625em auto;
     }
 
-    .vierdeh3 {
+    .extrainfo {
         grid-column-start: 1;
         grid-row-start: 1;
         font-weight: 100;
@@ -553,7 +552,7 @@ section:nth-of-type(8) {
     .desktopvoorbeeld {
         grid-column-start: 2;
         grid-row-start: 2;
-        max-width: 500px;
+        max-width: 31.250em;
         width: 100%;
         margin-top: -2em;
     }
@@ -564,7 +563,7 @@ section:nth-of-type(8) {
     padding-left: 42px;
     padding-right: 42px;
     padding-top: 40px;
-    padding-bottom: 1em;
+    padding-bottom: 16px;
     background-color: #0a3847;
 }
 
@@ -574,7 +573,7 @@ section:nth-of-type(8) {
     display: block;
     margin: auto;
     width: 85%;
-    max-width: 330px;
+    max-width: 20.625em;
 }
 
 .volgons {
@@ -592,7 +591,7 @@ section:nth-of-type(8) {
 
 ul {
     display: grid;
-    grid-template-columns: 80px 80px 80px 80px;
+    grid-template-columns: 5em 5em 5em 5em;
     grid-template-rows: 100%;
     list-style-type: none;
     text-align: center;
@@ -604,31 +603,31 @@ ul {
 li {
     display: inline;
     text-align: center;
-    margin: 0 0 3px 0;
+    margin: 0 0 0.188em 0;
 }
 
 .facebooklogo {
     grid-column-start: 1;
     grid-row-start: 1;
-    width: 35px;
+    width: 2.188em;
 }
 
 .twitterlogo {
     grid-column-start: 2;
     grid-row-start: 1;
-    width: 30px;
+    width: 1.875em;
 }
 
 .youtubelogo {
     grid-column-start: 3;
     grid-row-start: 1;
-    width: 35px;
+    width: 2.188em;
 }
 
 .bloglogo {
     grid-column-start: 4;
     grid-row-start: 1;
-    width: 35px;
+    width: 2.188em;
 }
 
 .buttoncontainer {
@@ -637,7 +636,7 @@ li {
     margin-top: 6em;
 }
 
-.footerbutton1 {
+.footerbuttonthuisbezorgd {
     grid-column-start: 1;
     font-weight: 600;
     font-size: 16px;
@@ -654,7 +653,7 @@ li {
     margin-bottom: 2em;
 }
 
-.arrowdown1 {
+.arrowdownthuisbezorgd {
     grid-column-start: 2;
     font-weight: 600;
     font-size: 25px;
@@ -672,7 +671,7 @@ li {
     margin-top: -0.2em;
 }
 
-.footerbutton2 {
+.footerbuttoninternational {
     grid-column-start: 1;
     font-weight: 600;
     font-size: 16px;
@@ -689,7 +688,7 @@ li {
     margin-bottom: 2em;
 }
 
-.arrowdown2 {
+.arrowdowninternational {
     grid-column-start: 2;
     font-weight: 600;
     font-size: 25px;
@@ -707,7 +706,7 @@ li {
     margin-top: -0.2em;
 }
 
-.footerbutton3 {
+.footerbuttoneten {
     grid-column-start: 1;
     font-weight: 600;
     font-size: 16px;
@@ -724,7 +723,7 @@ li {
     margin-bottom: 2em;
 }
 
-.arrowdown3 {
+.arrowdowneten {
     grid-column-start: 2;
     font-weight: 600;
     font-size: 25px;
@@ -742,7 +741,7 @@ li {
     margin-top: -0.2em;
 }
 
-.footerbutton4 {
+.footerbuttonprovincies {
     grid-column-start: 1;
     font-weight: 600;
     font-size: 16px;
@@ -759,7 +758,7 @@ li {
     margin-bottom: 2em;
 }
 
-.arrowdown4 {
+.arrowdownprovincies {
     grid-column-start: 2;
     font-weight: 600;
     font-size: 25px;
@@ -777,7 +776,7 @@ li {
     margin-top: -0.2em;
 }
 
-.footerbutton5 {
+.footerbuttonsteden {
     grid-column-start: 1;
     font-weight: 600;
     font-size: 16px;
@@ -794,7 +793,7 @@ li {
     margin-bottom: 2em;
 }
 
-.arrowdown5 {
+.arrowdownsteden {
     grid-column-start: 2;
     font-weight: 600;
     font-size: 25px;
@@ -812,7 +811,7 @@ li {
     margin-top: -0.2em;
 }
 
-.footerbutton6 {
+.footerbuttonnieuwerestaurants {
     grid-column-start: 1;
     font-weight: 600;
     font-size: 16px;
@@ -829,7 +828,7 @@ li {
     margin-bottom: 2em;
 }
 
-.arrowdown6 {
+.arrowdownnieuwerestaurants {
     grid-column-start: 2;
     font-weight: 600;
     font-size: 25px;
@@ -847,7 +846,7 @@ li {
     margin-top: -0.2em;
 }
 
-.footerbutton7 {
+.footerbuttonpartners {
     grid-column-start: 1;
     font-weight: 600;
     font-size: 16px;
@@ -864,7 +863,7 @@ li {
     margin-bottom: 2em;
 }
 
-.arrowdown7 {
+.arrowdownpartners {
     grid-column-start: 2;
     font-weight: 600;
     font-size: 25px;
@@ -898,7 +897,7 @@ li {
     align-self: center;
 }
 
-@media (min-width: 100px) {
+@media (min-width: 6.250em) {
     .etenbestellen {
         letter-spacing: 0.3px;
         font-weight: 700;
@@ -914,10 +913,11 @@ li {
     }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 37.500em) {
     header a img {
         content: url("../images/logo.svg")
     }
+
     .etenbestellen {
         letter-spacing: 0.3px;
         font-weight: 700;
@@ -952,19 +952,19 @@ li {
     text-align: left;
 }
 
-@media (min-width: 1004px) {
+@media (min-width: 62.750em) {
     .sectieaanbevelen {
         padding: 30px;
         font-size: 14px;
         margin: 0 auto;
-        max-width: 980px;
+        max-width: 61.250em;
     }
 
     .inputsectie {
         display: grid;
         padding: 30px;
         margin: 0 auto;
-        max-width: 920px;
+        max-width: 57.500em;
     }
 
     .flexcontainer {
@@ -1000,7 +1000,7 @@ label {
     font-weight: 400;
     color: #666;
     font-size: 13px;
-    margin-bottom: 20px;
+    margin-bottom: 1.250em;
 }
 
 input {
@@ -1015,13 +1015,13 @@ input {
     box-shadow: 0 0 8px #e6e2e2;
     transition: all .3s ease;
     transform: translateZ(0);
-    margin-bottom: 20px;
+    margin-bottom: 1.250em;
     padding: 0 0 0 20px;
 }
 
 #inputopmerkingen {
     padding: 0 0 0 20px;
-    height: 100px;
+    height: 6.250em;
 }
 
 .versturen {
@@ -1034,7 +1034,7 @@ input {
     text-align: center;
     cursor: pointer;
     background-color: #1574f5;
-    height: 35px;
+    height: 2.5em;
     line-height: 35px;
     width: 8em;
 }
@@ -1048,7 +1048,7 @@ input {
     padding-left: 42px;
     padding-right: 42px;
     padding-top: 40px;
-    padding-bottom: 1em;
+    padding-bottom: 16px;
     background-color: #0a3847;
 }
 
@@ -1079,7 +1079,6 @@ div a {
 }
 
 @media (min-width: 600px) {
-
     .footernavigatie {
         text-align: center;
     }

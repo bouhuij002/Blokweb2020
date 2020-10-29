@@ -1,29 +1,36 @@
 ﻿<!doctype html>
 <html lang="nl">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="author" content="jouw naam">
+    <meta name="Jeroen" content="Jeroen Bouhuijs">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Gemakkelijk en snel eten bestellen | Thuisbezorgd.nl</title>
     <link href="styles/style.css" rel="stylesheet">
-    <link rel="shortcut icon" href="https://www.thuisbezorgd.nl/favicon.ico"/>
-
+    <link rel="shortcut icon" href="https://www.thuisbezorgd.nl/favicon.ico" />
 </head>
-
 <body>
+    <!--Header-->
     <header>
         <a href="index.html">
             <img src="images/logo.svg" alt="Thuisbezorgd Logo">
         </a>
+        <!--Unicode.-->
+        <!-- Unicodes zijn decimale of hexadecimale codes, waarmee je characters makkelijk en snel kan plaatsen in je HTML.-->
+        <!--Voordelen:
+           - Unicode wordt bijna universeel geaccepteerd door computerplatforms, browsers en mobiele apparaten.
+           - Unicode-compatibele lettertypen zijn gratis beschikbaar voor bijna alle tekens.
+           - Unicode is geen 16-bits systeem, maar definieert tekens in een 21-bits ruimte.
+           - Unicode stelt iemand in staat om tekens in een enkel document weer te geven, waardoor de rommelige en foutgevoelige coderingsverschuivingen die nodig zijn in andere coderingssystemen worden vermeden.-->
+        <!--Nadelen:
+           - Er zijn meer bits nodig voor niet-ASCII-tekens, dus sommige documenten nemen iets meer ruimte in beslag dan bij coderingen die specifiek zijn voor een bepaalde taal of schrijfsysteem.
+           - Je kunt niet zomaar aannemen dat elk teken een vaste grootte heeft, dus tekstverwerking moet worden gedaan met behulp van de ICU-bibliotheken in plaats van bytes te tellen.-->
         <button class="menu">&#9776</button>
     </header>
-
+    <!--Secties-->
     <section class="indexsectie">
         <h1>Tijd om eten te bestellen</h1>
         <h2>Vind restaurants bij jou in de buurt</h2>
     </section>
-
     <section class="search">
         <form action="/action_page.php">
             <input type="search" name="zoeken" placeholder="Adres, b.v. Amstelplein 10" />
@@ -31,91 +38,76 @@
             <img class="locationicon" src="images/locationicon.png" alt="Locatie icoontje">
         </form>
     </section>
-
     <section>
+        <!--De schuine streep boven het hamburgerplaatje. De clip-path property maakt het mogelijk dat je een specifiek deel van een element aanpast/laat zien.-->
+        <!--De vier waardes die je kan invoeren geven top/left punten en de bottom/right punten aan. Clip-path wordt op alle browsers gesupport, behalve IE. Daarnaast supporten Chrome, Opera en Safari de clip-path property.-->
         <div class="polygon"></div>
-        <div class="hamburger"></div>
+        <div class="hamburgerfoto"></div>
     </section>
-
     <section>
-        <h3 class="eersteh3">Zo werkt Thuisbezorgd.nl</h3>
+        <h3 class="thuisbezorgdwerktzo">Zo werkt Thuisbezorgd.nl</h3>
         <h4>Supersimpel!</h4>
     </section>
-
+    <!--Carrousel-->
     <div class="carousel-container">
         <div class="carousel-slide">
-            <img class="poepies" src="images/carousel3.png" id="lastClone" alt="Bezorgen icoon">
-            <img class="poepies1" src="images/carousel1.png" alt="Location en zoeken icoon">
-            <img class="poepies2" src="images/carousel2.png" alt="Fastfood icoon">
-            <img class="poepies3" src="images/carousel3.png" alt="Bezorgen icoon">
-            <img class="poepies4" src="images/carousel1.png" id="firstClone" alt="Location en zoeken icoon">
+            <img class="carouselfoto" src="images/carousel3.png" id="lastClone" alt="Bezorgen icoon">
+            <img class="carouselfoto1" src="images/carousel1.png" alt="Location en zoeken icoon">
+            <img class="carouselfoto2" src="images/carousel2.png" alt="Fastfood icoon">
+            <img class="carouselfoto3" src="images/carousel3.png" alt="Bezorgen icoon">
+            <img class="carouselfoto4" src="images/carousel1.png" id="firstClone" alt="Location en zoeken icoon">
         </div>
     </div>
-
     <section>
         <h5>Locatie invoeren</h5>
-        <p class="AdresP">Voer je adres in, of laat ons je positie bepalen.</p>
+        <p class="adresinvoeren">Voer je adres in, of laat ons je positie bepalen.</p>
     </section>
-
     <button id="prevBtn"><img src="images/arrowlinks.png" alt="Previous knop"></button>
     <button id="nextBtn"><img src="images/arrowrechts.png" alt="Next knop"></button>
-
     <section>
         <span class="navrondje"></span>
         <span class="navrondje"></span>
         <span class="navrondje"></span>
     </section>
-
     <section>
-        <h3 class="tweedeh3">Download de app</h3>
-        <h3 class="derdeh3">Klik, ontspan en geniet.</h3>
+        <h3 class="downloadapp">Download de app</h3>
+        <h3 class="klikenontspan">Klik, ontspan en geniet.</h3>
         <img class="android" src="images/android.png" alt="Android icon">
         <img class="ios" src="images/ios.png" alt="Ios icon">
         <img class="mobielvoorbeeld" src="images/mobielvoorbeeld.png" alt="Plaatje van mobiel">
     </section>
-
     <section>
-        <h3 class="vierdeh3">Zin in meer? Op ons blog vind je interessante nieuwtjes op het gebied van food & lifestyle!</h3>
+        <h3 class="extrainfo">Zin in meer? Op ons blog vind je interessante nieuwtjes op het gebied van food & lifestyle!</h3>
         <a class="blog" href="#">> Naar het blog</a>
         <img class="desktopvoorbeeld" src="images/desktopvoorbeeld.png" alt="Plaatje van desktop">
     </section>
-
+    <!--Footer-->
     <footer class="footerindex">
-
         <img class="footerlogo" src="images/thuisbezorgd3.svg" alt="Thuisbezorgd Logo">
         <h5 class="volgons">Follow us</h5>
-
         <ul>
             <li><img class="facebooklogo" src="images/facebooklogo.png" alt="Facebook Logo"></li>
             <li><img class="facebooklogo" src="images/twitterlogo.png" alt="Twitter Logo"></li>
             <li><img class="youtubelogo" src="images/youtubelogo.png" alt="Youtube Logo"></li>
             <li><img class="bloglogo" src="images/bloglogo.png" alt="Blog Logo"></li>
         </ul>
-
         <div class="buttoncontainer">
-            <button class="footerbutton1">Thuisbezorgd.nl</button>
-            <a class="arrowdown1" href="aanbevelen.html">⌄</a>
-
-            <button class="footerbutton2">International</button>
-            <a class="arrowdown2" href="#">⌄</a>
-
-            <button class="footerbutton3">Eten</button>
-            <a class="arrowdown3" href="#">⌄</a>
-
-            <button class="footerbutton4">Provincies</button>
-            <a class="arrowdown4" href="#">⌄</a>
-
-            <button class="footerbutton5">Steden</button>
-            <a class="arrowdown5" href="#">⌄</a>
-
-            <button class="footerbutton6">Nieuwe bezorgrestaurants</button>
-            <a class="arrowdown6" href="#">⌄</a>
-
-            <button class="footerbutton7">Partners</button>
-            <a class="arrowdown7" href="#">⌄</a>
+            <button class="footerbuttonthuisbezorgd">Thuisbezorgd.nl</button>
+            <a class="arrowdownthuisbezorgd" href="aanbevelen.html">⌄</a>
+            <button class="footerbuttoninternational">International</button>
+            <a class="arrowdowninternational" href="#">⌄</a>
+            <button class="footerbuttoneten">Eten</button>
+            <a class="arrowdowneten" href="#">⌄</a>
+            <button class="footerbuttonprovincies">Provincies</button>
+            <a class="arrowdownprovincies" href="#">⌄</a>
+            <button class="footerbuttonsteden">Steden</button>
+            <a class="arrowdownsteden" href="#">⌄</a>
+            <button class="footerbuttonnieuwerestaurants">Nieuwe bezorgrestaurants</button>
+            <a class="arrowdownnieuwerestaurants" href="#">⌄</a>
+            <button class="footerbuttonpartners">Partners</button>
+            <a class="arrowdownpartners" href="#">⌄</a>
         </div>
     </footer>
-
     <script src="scripts/script.js"></script>
 </body>
 </html>

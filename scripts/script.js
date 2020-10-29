@@ -1,3 +1,6 @@
+//Gebruik gemaakt van https://www.youtube.com/watch?v=KcdBOoK3Pfw voor het maken en gebruik van deze javascript code.
+
+
 const carouselSlide = document.querySelector('.carousel-slide');
 const carouselImages = document.querySelectorAll('.carousel-slide img');
 
