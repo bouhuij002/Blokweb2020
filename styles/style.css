@@ -49,20 +49,20 @@ header {
             margin-right: auto;
         }
 
-.menu {
-    grid-column-start: 3;
-    grid-row-start: 1;
-    align-self: center;
-    color: #fff;
-    font-weight: 400;
-    font-size: 21px;
-    background: transparent;
-    border: none;
-    display: flex;
-    align-content: flex-end;
-    justify-content: flex-end;
-    margin-right: 1.25em;
-}
+    header button:nth-of-type(1) {
+        grid-column-start: 3;
+        grid-row-start: 1;
+        align-self: center;
+        color: #fff;
+        font-weight: 400;
+        font-size: 21px;
+        background: transparent;
+        border: none;
+        display: flex;
+        align-content: flex-end;
+        justify-content: flex-end;
+        margin-right: 1.25em;
+    }
 
 .indexsectie {
     display: grid;
@@ -135,7 +135,7 @@ header {
             max-width: 23%;
         }
 
-.locationicon {
+.search img {
     position: relative;
     width: 100%;
     text-align: center;
@@ -247,7 +247,7 @@ section:nth-of-type(6) {
     justify-content: center;
 }
 
-.navrondje:nth-of-type(1) {
+section span:nth-of-type(1) {
     grid-column-start: 1;
     grid-row-start: 1;
     text-align: center;
@@ -260,7 +260,7 @@ section:nth-of-type(6) {
     height: 1.250em;
 }
 
-.navrondje:nth-of-type(2) {
+section span:nth-of-type(2) {
     grid-column-start: 2;
     grid-row-start: 1;
     cursor: pointer;
@@ -274,7 +274,7 @@ section:nth-of-type(6) {
     text-align: center;
 }
 
-.navrondje:nth-of-type(3) {
+section span:nth-of-type(3) {
     grid-column-start: 3;
     grid-row-start: 1;
     cursor: pointer;
@@ -301,35 +301,35 @@ section:nth-of-type(6) {
     margin: auto;
 }
 
-.carouselfoto {
-    width: 100%;
-    height: 100%;
-    margin: auto;
-}
+    .carousel-slide img:nth-of-type(1) {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
 
-.carouselfoto1 {
-    width: 100%;
-    height: 100%;
-    margin: auto;
-}
+    .carousel-slide img:nth-of-type(2) {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
 
-.carouselfoto2 {
-    width: 100%;
-    height: 100%;
-    margin: auto;
-}
+    .carousel-slide img:nth-of-type(3) {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
 
-.carouselfoto3 {
-    width: 100%;
-    height: 100%;
-    margin: auto;
-}
+    .carousel-slide img:nth-of-type(4) {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
 
-.carouselfoto4 {
-    width: 100%;
-    height: 100%;
-    margin: auto;
-}
+    .carousel-slide img:nth-of-type(5) {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
 
 #prevBtn {
     position: relative;
@@ -377,47 +377,47 @@ section:nth-of-type(7) {
     padding: 60px 30px;
 }
 
-.downloadapp {
-    background: #261e1e;
-    box-shadow: 16px 0 0 #261e1e, -16px 0 0 #261e1e;
-    color: #fff;
-    padding: 8px 0;
-    font-weight: 400;
-    margin: 0 0 0.625em 0.75em;
-    text-align: left;
-    width: 8em;
-    font-size: 21px;
-}
+    section:nth-of-type(7) h3:nth-of-type(1) {
+        background: #261e1e;
+        box-shadow: 16px 0 0 #261e1e, -16px 0 0 #261e1e;
+        color: #fff;
+        padding: 8px 0;
+        font-weight: 400;
+        margin: 0 0 0.625em 0.75em;
+        text-align: left;
+        width: 8em;
+        font-size: 21px;
+    }
 
-.klikenontspan {
-    background: #261e1e;
-    box-shadow: 16px 0 0 #261e1e, -16px 0 0 #261e1e;
-    color: #fff;
-    padding: 8px 0;
-    font-weight: 400;
-    margin: 0 0 0.625em 0.75em;
-    text-align: left;
-    width: 10.5em;
-    font-size: 21px;
-}
+    section:nth-of-type(7) h3:nth-of-type(2) {
+        background: #261e1e;
+        box-shadow: 16px 0 0 #261e1e, -16px 0 0 #261e1e;
+        color: #fff;
+        padding: 8px 0;
+        font-weight: 400;
+        margin: 0 0 0.625em 0.75em;
+        text-align: left;
+        width: 10.5em;
+        font-size: 21px;
+    }
 
-.android {
-    margin-bottom: 0.35em;
-}
+    section:nth-of-type(7) img:nth-of-type(1) {
+        margin-bottom: 0.35em;
+    }
 
-.ios {
-    margin-bottom: 0.35em;
-}
+    section:nth-of-type(7) img:nth-of-type(2) {
+        margin-bottom: 0.35em;
+    }
 
-.mobielvoorbeeld {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 33%;
-    padding-left: 50px;
-    min-width: 13.750em;
-    max-width: 25em;
-}
+    section:nth-of-type(7) img:nth-of-type(3) {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 33%;
+        padding-left: 50px;
+        min-width: 13.750em;
+        max-width: 25em;
+    }
 
 @media (min-width: 1005px) {
     section:nth-of-type(7) {
@@ -432,17 +432,17 @@ section:nth-of-type(7) {
         padding: 60px 30px;
     }
 
-    .android {
-        width: 30vh;
-        margin-left: 3.750em;
-    }
+        section:nth-of-type(7) img:nth-of-type(1) {
+            width: 30vh;
+            margin-left: 3.750em;
+        }
 
-    .ios {
-        width: 30vh;
-        margin-left: 3.750em;
-    }
+        section:nth-of-type(7) img:nth-of-type(2) {
+            width: 30vh;
+            margin-left: 3.750em;
+        }
 
-    .downloadapp {
+    section:nth-of-type(7) h3:nth-of-type(1) {
         background: #261e1e;
         box-shadow: 16px 0 0 #261e1e, -16px 0 0 #261e1e;
         color: #fff;
@@ -454,7 +454,7 @@ section:nth-of-type(7) {
         font-size: 40px;
     }
 
-    .klikenontspan {
+    section:nth-of-type(7) h3:nth-of-type(2) {
         background: #261e1e;
         box-shadow: 16px 0 0 #261e1e, -16px 0 0 #261e1e;
         color: #fff;
@@ -606,25 +606,25 @@ li {
     margin: 0 0 0.188em 0;
 }
 
-.facebooklogo {
+ul li img:nth-of-type(1) {
     grid-column-start: 1;
     grid-row-start: 1;
     width: 2.188em;
 }
 
-.twitterlogo {
+ul li img:nth-of-type(2) {
     grid-column-start: 2;
     grid-row-start: 1;
     width: 1.875em;
 }
 
-.youtubelogo {
+ul li img:nth-of-type(3) {
     grid-column-start: 3;
     grid-row-start: 1;
     width: 2.188em;
 }
 
-.bloglogo {
+ul li img:nth-of-type(4) {
     grid-column-start: 4;
     grid-row-start: 1;
     width: 2.188em;
@@ -636,250 +636,42 @@ li {
     margin-top: 6em;
 }
 
-.footerbuttonthuisbezorgd {
-    grid-column-start: 1;
-    font-weight: 600;
-    font-size: 16px;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 24px;
-    letter-spacing: normal;
-    color: #fff;
-    position: relative;
-    cursor: pointer;
-    background: transparent;
-    border: none;
-    justify-self: start;
-    margin-bottom: 2em;
-}
+    .buttoncontainer button {
+        grid-column-start: 1;
+        font-weight: 600;
+        font-size: 16px;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 24px;
+        letter-spacing: normal;
+        color: #fff;
+        position: relative;
+        cursor: pointer;
+        background: transparent;
+        border: none;
+        justify-self: start;
+        margin-bottom: 2em;
+    }
 
-.arrowdownthuisbezorgd {
-    grid-column-start: 2;
-    font-weight: 600;
-    font-size: 25px;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 24px;
-    letter-spacing: normal;
-    color: #fff;
-    position: relative;
-    cursor: pointer;
-    background: transparent;
-    border: none;
-    text-decoration: none;
-    justify-self: end;
-    margin-top: -0.2em;
-}
 
-.footerbuttoninternational {
-    grid-column-start: 1;
-    font-weight: 600;
-    font-size: 16px;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 24px;
-    letter-spacing: normal;
-    color: #fff;
-    position: relative;
-    cursor: pointer;
-    background: transparent;
-    border: none;
-    justify-self: start;
-    margin-bottom: 2em;
-}
 
-.arrowdowninternational {
-    grid-column-start: 2;
-    font-weight: 600;
-    font-size: 25px;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 24px;
-    letter-spacing: normal;
-    color: #fff;
-    position: relative;
-    cursor: pointer;
-    background: transparent;
-    border: none;
-    text-decoration: none;
-    justify-self: end;
-    margin-top: -0.2em;
-}
-
-.footerbuttoneten {
-    grid-column-start: 1;
-    font-weight: 600;
-    font-size: 16px;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 24px;
-    letter-spacing: normal;
-    color: #fff;
-    position: relative;
-    cursor: pointer;
-    background: transparent;
-    border: none;
-    justify-self: start;
-    margin-bottom: 2em;
-}
-
-.arrowdowneten {
-    grid-column-start: 2;
-    font-weight: 600;
-    font-size: 25px;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 24px;
-    letter-spacing: normal;
-    color: #fff;
-    position: relative;
-    cursor: pointer;
-    background: transparent;
-    border: none;
-    text-decoration: none;
-    justify-self: end;
-    margin-top: -0.2em;
-}
-
-.footerbuttonprovincies {
-    grid-column-start: 1;
-    font-weight: 600;
-    font-size: 16px;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 24px;
-    letter-spacing: normal;
-    color: #fff;
-    position: relative;
-    cursor: pointer;
-    background: transparent;
-    border: none;
-    justify-self: start;
-    margin-bottom: 2em;
-}
-
-.arrowdownprovincies {
-    grid-column-start: 2;
-    font-weight: 600;
-    font-size: 25px;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 24px;
-    letter-spacing: normal;
-    color: #fff;
-    position: relative;
-    cursor: pointer;
-    background: transparent;
-    border: none;
-    text-decoration: none;
-    justify-self: end;
-    margin-top: -0.2em;
-}
-
-.footerbuttonsteden {
-    grid-column-start: 1;
-    font-weight: 600;
-    font-size: 16px;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 24px;
-    letter-spacing: normal;
-    color: #fff;
-    position: relative;
-    cursor: pointer;
-    background: transparent;
-    border: none;
-    justify-self: start;
-    margin-bottom: 2em;
-}
-
-.arrowdownsteden {
-    grid-column-start: 2;
-    font-weight: 600;
-    font-size: 25px;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 24px;
-    letter-spacing: normal;
-    color: #fff;
-    position: relative;
-    cursor: pointer;
-    background: transparent;
-    border: none;
-    text-decoration: none;
-    justify-self: end;
-    margin-top: -0.2em;
-}
-
-.footerbuttonnieuwerestaurants {
-    grid-column-start: 1;
-    font-weight: 600;
-    font-size: 16px;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 24px;
-    letter-spacing: normal;
-    color: #fff;
-    position: relative;
-    cursor: pointer;
-    background: transparent;
-    border: none;
-    justify-self: start;
-    margin-bottom: 2em;
-}
-
-.arrowdownnieuwerestaurants {
-    grid-column-start: 2;
-    font-weight: 600;
-    font-size: 25px;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 24px;
-    letter-spacing: normal;
-    color: #fff;
-    position: relative;
-    cursor: pointer;
-    background: transparent;
-    border: none;
-    text-decoration: none;
-    justify-self: end;
-    margin-top: -0.2em;
-}
-
-.footerbuttonpartners {
-    grid-column-start: 1;
-    font-weight: 600;
-    font-size: 16px;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 24px;
-    letter-spacing: normal;
-    color: #fff;
-    position: relative;
-    cursor: pointer;
-    background: transparent;
-    border: none;
-    justify-self: start;
-    margin-bottom: 2em;
-}
-
-.arrowdownpartners {
-    grid-column-start: 2;
-    font-weight: 600;
-    font-size: 25px;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 24px;
-    letter-spacing: normal;
-    color: #fff;
-    position: relative;
-    cursor: pointer;
-    background: transparent;
-    border: none;
-    text-decoration: none;
-    justify-self: end;
-    margin-top: -0.2em;
-}
+    .buttoncontainer a {
+        grid-column-start: 2;
+        font-weight: 600;
+        font-size: 25px;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 24px;
+        letter-spacing: normal;
+        color: #fff;
+        position: relative;
+        cursor: pointer;
+        background: transparent;
+        border: none;
+        text-decoration: none;
+        justify-self: end;
+        margin-top: -0.2em;
+    }
 
 .etenbestellen {
     font-weight: 700;
@@ -933,7 +725,7 @@ li {
     }
 }
 
-.aanbevelenrestaurant {
+.sectieaanbevelen h1 {
     font-weight: 400;
     color: #666;
     background-color: #fff;
@@ -943,7 +735,7 @@ li {
     padding: 30px 20px 20px 20px;
 }
 
-.aanbevelenuitleg {
+.sectieaanbevelen p {
     padding: 0 20px 20px 20px;
     color: #666;
     font-size: 13px;
